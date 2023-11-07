@@ -16,14 +16,17 @@ Since the data consists of a sequence of images as slices of the CT of each pati
 -Create a volume for each CT (50 slices evenly spaced) and create a "3D" image with 50 channels and fitting to a Resnet18 model modified to receive 50 channels.
 Both approaches manage to yield a reasonable accuracy. However, my naive and basic approach didn't get to the high positions in the rank of the competition.
 CNN pre-trained model (Resnet18) to extract features of a sequence of images (slices) of MRI of Abdominal Region to classify injuries in different organs.
-# The Schema of the Resnet18-3D model:
+## The Schema of the Resnet18-3D model:
 ![resnet18_3d](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/8e0ea0c8-04d5-4d80-ae25-0b18011b75f0)
 
-# The Schemma of the Resnet18 + LSTM model:
+## The Schemma of the Resnet18 + LSTM model:
 ![cnn_lstm_summary](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/ed72fdcb-6128-463f-8c01-328d29279341)
 
-# Loss Functions:
+## Loss Functions:
 The Loss function chosen for each group of class was:
 BCE With Logits Loss for binary classification.
 Cross Entropy Loss for multiclass classification. 
 
+## Results:
+The accuracy of both models were pretty close, Resnet with 50 channels: 73.33% and the CNN+LSTM: 73.49%. Looking to the top competitors solutions, all of them also implement the use of segmentation dataset to make the model recognize the region around each organ, making the prediction more precise.
+Since the purpose of this project is for practice only, I think we can get a reasonable result with a simpler model. But there is always room for improvement.
