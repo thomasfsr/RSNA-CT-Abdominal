@@ -1,6 +1,6 @@
 # Classification of injuries in a MRI of abdominal regions.
 
-#Summary:
+## Summary:
 The competition was held in Kaggle hosted by the RSNA (Radiological Society of North America). The dataset consists of CT (Computer Tomograph) of many patients that suffered of traumas in the abdominal region. The Task was to classify the injuries by the labels given by the dataset. 
 The labels consists of injuries:
 -bowel_healthy,bowel_injury
