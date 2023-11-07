@@ -15,6 +15,9 @@ Since the data consists of a sequence of images as slices of the CT of each pati
 -Create a volume for each CT (50 slices evenly spaced) and create a "3D" image with 50 channels and fitting to a Resnet18 model modified to receive 50 channels.
 Both approaches manage to yield a reasonable accuracy. However, my naive and basic approach didn't get to the high positions in the rank of the competition.
 CNN pre-trained model (Resnet18) to extract features of a sequence of images (slices) of MRI of Abdominal Region to classify injuries in different organs.
-# The Schema of the Resnet3D model:
+# The Schema of the Resnet18-3D model:
 ![image](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/f0d61916-6d00-4a22-896b-809b3ff1c4ab)
+
+# The Schemma of the Resnet18 + LSTM model:
+![image](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/9a2e8a18-c99e-4f38-a63e-7f0285a03c18)
 
