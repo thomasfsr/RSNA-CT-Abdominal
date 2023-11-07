@@ -1,4 +1,5 @@
-# Classification of injuries in a MRI of abdominal regions.
+# Classification of injuries in a MRI of abdominal regions. (Kaggle Competition)
+link of the competition: https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection
 
 ## Summary:
 The competition was held in Kaggle hosted by the RSNA (Radiological Society of North America). The dataset consists of CT (Computer Tomograph) of many patients that suffered of traumas in the abdominal region. The Task was to classify the injuries by the labels given by the dataset.  
