@@ -28,5 +28,5 @@ BCE With Logits Loss for binary classification.
 Cross Entropy Loss for multiclass classification. 
 
 ## Results:
-The accuracy of both models were pretty close, Resnet with 50 channels: 73.33% and the CNN+LSTM: 73.49%. Looking to the top competitors solutions, all of them also implement the use of segmentation dataset to make the model recognize the region around each organ, making the prediction more precise.
+The accuracy of both models were pretty close, Resnet with 50 channels: 73.33% and the CNN+LSTM: 73.49%. Looking to the top competitors solutions, all of them also implemented a segmentation dataset to make the model recognize the region around each organ, making the prediction more precise.
 Since the purpose of this project is for practice only, I think we can get a reasonable result with a simpler model. But there is always room for improvement.
