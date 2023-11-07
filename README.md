@@ -19,5 +19,5 @@ CNN pre-trained model (Resnet18) to extract features of a sequence of images (sl
 ![image](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/f0d61916-6d00-4a22-896b-809b3ff1c4ab)
 
 # The Schemma of the Resnet18 + LSTM model:
-![image](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/9a2e8a18-c99e-4f38-a63e-7f0285a03c18)
+![cnnlstm_summary](https://github.com/thomasfsr/RSNA-MRI-of-Abdominal/assets/95254072/2a20fcdc-fb37-4aa6-90ca-4b0ccfde01ff)
 
