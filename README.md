@@ -1,4 +1,4 @@
-# Classification of injuries in a MRI of abdominal regions. (Kaggle Competition)
+# Classification of abdominal injuries by CT (computer tomograph) of the abdominal region. (Kaggle Competition)
 link of the competition: https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection
 
 ## Summary:
