@@ -8,7 +8,8 @@ The labels consists of injuries:
 * Extravasation_healthy,extravasation_injury,  
 * Kidney_healthy,kidney_low,kidney_high,  
 * Liver_healthy,liver_low,liver_high,  
-* Spleen_healthy,spleen_low,spleen_high.  
+* Spleen_healthy,spleen_low,spleen_high.
+
 So, there are 5 types of labels, two of them are binary classes (bowel and extrabasation). And the remaining are also the degree (low or high) of the injury.  
 
 Since the data consists of a sequence of images as slices of the CT of each patient, I decided to experiment two approaches:
