@@ -1,4 +1,4 @@
-# Classification of abdominal injuries by CT (computer tomograph) of the abdominal region. (Kaggle Competition)
+# Diagnose of Abdominal Injuries by Computer Tomograph (CT). (Kaggle Competition)
 link of the competition: https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection  
 CNN 3D solution notebook in kaggle: https://www.kaggle.com/code/thomasfreire/resnet3d    
 CNN + LSTM notebook in kaggle: https://www.kaggle.com/code/thomasfreire/cnnandlstm  
