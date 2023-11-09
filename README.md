@@ -26,8 +26,8 @@ Since the data consists of a sequence of images as slices of the CT of each pati
 
 ## Loss Functions:
 The Loss function chosen for each group of class was:
-* BCE With Logits Loss for binary classification.
-* Cross Entropy Loss for multiclass classification.
+* BCE With Logits Loss for binary classification: bowel, Extravasation.
+* Cross Entropy Loss for multiclass classification: Kidney, Liver, Spleen.
 
 ## Results:
 The accuracy of both models were pretty close, Resnet with 50 channels: 73.33% and the CNN+LSTM: 73.49%. Looking to the top competitors solutions, all of them also implemented a segmentation dataset to make the model recognize the region around each organ, making the prediction more precise.
